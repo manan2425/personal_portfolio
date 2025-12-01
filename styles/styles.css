@@ -1,0 +1,17 @@
+body > div:first-child {
+  overflow-x: hidden;
+}
+
+.headroom--not-top {
+  background-color: #000000 !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+}
+
+.headroom--unpinned {
+  transform: translateY(0%);
+}
