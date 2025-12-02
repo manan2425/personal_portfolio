@@ -208,7 +208,7 @@ export const seoData: SEODataType = {
   title: "Manan Patel",
   description: greetings.description,
   author: "Manan Patel",
-  image: "https://personal-portfolio-j1z9.vercel.app/img/Manan.jpg",
+  image: "https://personal-portfolio-j1z9.vercel.app/img/manan.jpg",
   url: "https://personal-portfolio-j1z9.vercel.app/",
   keywords: [
     "Manan",
