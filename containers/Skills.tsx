@@ -2,7 +2,8 @@ import { Icon } from "@iconify/react";
 import React, { Fragment } from "react";
 import Fade from "react-reveal/Fade";
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
-import DisplayLottie from "../components/DisplayLottie";
+import dynamic from "next/dynamic";
+const DisplayLottie = dynamic(() => import("../components/DisplayLottie"), { ssr: false });
 import { skillsSection } from "../portfolio";
 
 const Skills = () => {
